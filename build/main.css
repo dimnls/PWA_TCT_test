@@ -39311,13 +39311,24 @@ sub {
   }
 }
 
-page-organizers .img-avatar {
+.prices {
   width: 100%;
   height: auto;
 }
 
+.map-frame {
+  width: 640px;
+  height: 480px;
+}
+
+page-organizers .img-avatar {
+  max-width: 80%;
+  height: auto;
+}
+
 page-organizers .oc-info {
-  padding-left: 5%;
+  padding-left: 0%;
+  font-size: 0.7em;
 }
 
 .fb-link {
